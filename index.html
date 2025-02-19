@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BharathTicketReservation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.eo4oT4bFaymxlqrJnIBviAHaEk?rs=1&pid=ImgDetMain">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">BharathTrainTicketReservation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#fare-comparison">Compare Fares</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#BookING">Book Tickets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to Bharath Train Ticket Reservation</h1>
+            <p class="lead">The easiest way to compare fares and book your train tickets online</p>
+        </div>
+    </header>
+
+    <section id="fare-comparison" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Compare Train Fares</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="From">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="To">
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary btn-block">Compare Fares</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="booking" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Book Your Ticket</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control mb-3" placeholder="Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control mb-3" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control mb-3" placeholder="Departure City">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control mb-3" placeholder="Destination City">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="date" class="form-control mb-3">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="time" class="form-control mb-3">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Book Ticket</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="popular-routes py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Popular routes in India</h2>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col"><i class="fas fa-bus"></i></th>
+                            <th scope="col">Route</th>
+                            <th scope="col">Daily Departures</th>
+                            <th scope="col">Average Price</th>
+                            <th scope="col">Average Trip Duration</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fas fa-bus"></i></td>
+                            <td>From Kochuveli to KSR Bangalore</td>
+                            <td>2</td>
+                            <td>&#8377;1,359</td>
+                            <td>14h 40m</td>
+                            <td><button class="btn btn-light"><i class="fas fa-search"></i> Book</button></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-bus"></i></td>
+                            <td>From Kanyakumari to Hyderabad</td>
+                            <td>1</td>
+                            <td>&#8377;2,457</td>
+                            <td>17h 35m</td>
+                            <td><button class="btn btn-light"><i class="fas fa-search"></i> Book</button></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-bus"></i></td>
+                            <td>From Chikkabanavara to Kochuveli</td>
+                            <td>4</td>
+                            <td>&#8377;1,013</td>
+                            <td>13h 30m</td>
+                            <td><button class="btn btn-light"><i class="fas fa-search"></i> Book</button></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-bus"></i></td>
+                            <td>From Ernakulam to Delhi</td>
+                            <td>1</td>
+                            <td>&#8377;3,413</td>
+                            <td>23h 35m</td>
+                            <td><button class="btn btn-light"><i class="fas fa-search"></i> Book</button></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-bus"></i></td>
+                            <td>From KSR Bangalore to Goa</td>
+                            <td>4</td>
+                            <td>&#8377;1,715</td>
+                            <td>8h 30m</td>
+                            <td><button class="btn btn-light"><i class="fas fa-search"></i> Book</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+        
+  <div class="container mt-5">
+
+    <div class="main-section-title mt-5">Main destinations Train</div>
+
+    <div class="d-flex justify-content-end see-more">
+      <a href="#">See more train ticket offers</a>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images4.alphacoders.com/762/762210.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Agra</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://wallpaperaccess.com/full/4455652.jpg" class="card-img-top" alt="Train Destination 2">
+          <div class="card-body">
+            <h5 class="card-title">New Delhi</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://external-preview.redd.it/WVMpVoje1PteKkBLPglLeVMiGyPJGRpoc3LqMOoedIo.jpg?auto=webp&s=01e95e61fcfa462f68dd07bb944dcc7b675a87f2" class="card-img-top" alt="Train Destination 3">
+          <div class="card-body">
+            <h5 class="card-title">Jammu Kashmir</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>    
+  <div id="contacts" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <p>Feel free to reach out to us via social media!</p>
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="mx-2 text-dark">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="#" class="mx-2 text-success">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+                    <a href="#" class="mx-2 text-danger">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="#" class="mx-2 text-primary">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 BharathTrainTicketReservation. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>

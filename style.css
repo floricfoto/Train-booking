@@ -1,0 +1,77 @@
+.popular-routes h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table .btn {
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 0.9rem;
+    }
+}
+
+.main-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .card img {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .see-more {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
+  #contacts h1{
+text-align: center;
+color: #ddd;
+}
+
+.social-icons a {
+text-decoration: none;
+color: rgba(7, 160, 243, 0.927);
+font-size: 40px;
+margin: 0 15px;
+}
+
+.social-icons{
+  padding-left: 605px;
+  margin-bottom: 60px;
+  text-decoration: none;
+  color: blue; 
+  font-size: 40px; 
+  transition: color 0.3s ease; 
+}
+
+.social-icons a:hover {
+  color: rgb(18, 112, 149); 
+}
+#contacts{
+    margin-top: 50px;
+}
+
+#contacts h1{
+    color: #000;
+    font-size: 30px;
+    
+}
